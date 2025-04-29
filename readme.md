@@ -9,3 +9,12 @@ InfluxDB UI: http://localhost:8086
 Grafana: http://localhost:3000
 -  Usuario: admin
 -  Contraseña: admin
+
+Flujo de los datos
+```mermaid
+graph LR
+    A[Sensor en Arduino 1] -->|Transmite vía RF/NRF24L01| B[Arduino Receptor]
+    B -->|Envía datos por Serial| C[Python: Lectura Serial]
+    C -->|Procesa y envía| D[InfluxDB vía API HTTP]
+    D -->|Almacenamiento| E[Grafana: Visualización]
+```
