@@ -18,3 +18,6 @@ graph LR
     C -->|Procesa y envía| D[InfluxDB vía API HTTP]
     D -->|Almacenamiento| E[Grafana: Visualización]
 ```
+
+Diagrama en grafana
+![Diagrama de flujo de Grafana](diagrama_grafana.png)
