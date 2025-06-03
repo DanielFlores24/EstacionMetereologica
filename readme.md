@@ -23,3 +23,14 @@ Diagrama en grafana
 ![Diagrama de flujo de Grafana](diagrama_grafana.png)
 
 Este proyecto cuenta tambien con un filtro de kalman, si bien los datos no siguien distribuciones normales decidimos meterlo.
+En total hicimos 1050 mediciones estaticas con el sensor para ver el comportamiento de los datos:
+Distribucion de la temperatura
+![Distribucion temperatura](Temperatura.png)
+Distribucion de la presión
+![Distribucion presión](Presion.png)
+Distribucion de la humedad
+![Distribucion humedad](Humedad.png)
+Distribucion de la resistencia de los gases
+![Distribucion gas resistance](Gas_Resistance.png)
+Distribucion de la altitud
+![Distribucion altitud](Altitud.png)
