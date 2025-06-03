@@ -21,3 +21,5 @@ graph LR
 
 Diagrama en grafana
 ![Diagrama de flujo de Grafana](diagrama_grafana.png)
+
+Este proyecto cuenta tambien con un filtro de kalman, si bien los datos no siguien distribuciones normales decidimos meterlo.
