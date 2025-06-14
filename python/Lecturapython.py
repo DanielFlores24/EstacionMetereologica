@@ -111,7 +111,7 @@ try:
     print("Conectado al Arduino. Enviando datos a InfluxDB...")
     
     #Bucle principal de lectura
-    while True:
+    while True: 
         if arduino.in_waiting > 0:
             #Vemos si se puede abrir el monitor serie
             try:
